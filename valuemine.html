@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>blayne cameron - UX Designer</title>
+
+	<!-- GOOGLE FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,300italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="CSS/font-awesome.css">
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<!-- HEADER -->
+	<header class="center-align">
+		<nav class="container">
+			<div class="one-half">
+				<ul>
+					<li><a class="logo" href="index.html">blayne cameron</a></li>
+					<li><a class="link" href="index.html">Work</a></li>
+					<li><a class="link" href="about.html">About</a></li>
+				</ul>
+			</div>
+			<div class="one-half email">
+				<p>blaynechong@gmail.com</p>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<!-- LOGO -->
+		<section class="vmlogo">
+			<div class="container">
+				<img class="project-logo-intro" src="images/vmPageLogo.png">
+			</div>
+		</section>
+
+		<!-- SUMMARY -->
+		<section class="white-background">
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Overview</h1>
+						<p>ValueMine is an app created to simplify the investment process. Its purpose is to help value investors to determine the intrinsic value of companies by providing them with financial data.</p>
+					</div>
+					<div class="paragraph">
+						<h1>Inception</h1>
+						<p>The idea for the app came to me when I was learning Objective-C. I was attempting to retrieve the stock price of companies from Yahoo’s API, when I started to wonder if there were any apps that displayed in depth financial information for value investors. As someone who casually invests, this peaked my interest.</p>
+					</div>
+					<div class="paragraph">
+						<h1>Target Market</h1>
+						<p>Value investing requires a significant amount of research and data in order to make informed investment decisions. Value investors use a combination of year-to-date financials, historical financial information, financial ratios and information from SEC filings (i.e. 10-k) when investing. Most serious value investors already have their own methods for acquiring the information that they need, but these people are not our target market. We are targeting those who we call casual value investors. We define them as people who have full time jobs, but trade on the side. Casual value investors generally have to go to great lengths in order to acquire and organize the information they need to make investments.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SCREENSHOTS -->
+		<section class="container">
+			<div class="image screenshots">
+				<img src="images/vmIntroScreens.png">
+			</div>
+		</section>
+
+		<!-- RESEARCH -->
+		<section class="white-background">
+			<div class="container avatar">
+				<div class="one-half">
+					<img src="images/avatarOne.png">
+				</div>
+				<div class="one-half">
+					<img src="images/avatarTwo.png">
+				</div>
+			</div>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Research</h1>
+						<p>Most finance apps in the market only provide information about stock price trends, news, etc. But, these apps only cater to investors who make short term trades, like technical analysts, who trade based on stock price. After looking at several apps in the app store, I didnt find any that provided the financial information necessary for people who trade using long-term strategies such as value investor.</p>
+						<p>Value investors can look at up to 10 years of financial information and much of this data is very tedious to get and organize. The primary way to get this information is either through the use of APIs, which generally cost money or by downloading SEC files. These methods aren’t very complicated, but the pain for investors comes from having to organize this information into spreadsheets or paying for or learning to use APIs.</p>
+						<p>A casual value investor who I interviewed manually inputs financial data into a spreadsheet from SEC filings. A snapshot of a part of the  spreadsheet can be seenbelow. This process, as you can imagine is very tedious and could take him up to 2 hours to fill out 10 years of financial data per company. </p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image spreadsheet margin-top">
+					<img src="images/spreadsheet.png">
+				</div>
+			</div>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>The Intelligent Investor</h1>
+						<p>While, doing research I also discovered a very popular book on value investing called the  “The Intelligent Investor” by Benjamin Graham. Graham was the mentor of Warren Buffett, who holds this book in very high esteem. In order to get a better understanding about the investment process, I turned to this book to gain insight about investment practices and to get a better understanding how they make decisions. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROCESS -->
+		<section>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Process</h1>
+						<p>With the information I acquired from interviews and Ben Graham’s book I created several user stories to help me organize and prioritize features I would include in the app. The user stories were placed in order of importance which helped us to decide which features were necessary for the MVP (Minimum Viable Product). We wanted to follow the MVP model as much as possible so that meant stripping down the app to its core functions and identifying features that would be the most important for our users. So, we had to ask ourselves what is the most important thing for value investors and why? The answer is simple, it’s data. More specifically, a company’s current and historical financial information. Investors look at current financial information because investors need to be able to see the current state of a company and historical data is important because the past is a good predictor of the future when it comes to investing. With our new focus established, we decided that a sign in and search filter were only features which would be nice to have opposed to something critical for the app to do it’s job and could be added in a later.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image user-stories margin-top">
+					<img src="images/userStories.png">
+				</div>
+			</div>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Making The App More Intuitive</h1>
+						<p>I wanted the app to follow a similar layout to existing finance apps that are currently in the market. This would ensure that the app would be more intuitive for any first time user as they would be able to open the app and have an immediate understanding of how it worked. By allowing users to have a watchlist they would be able to save their favourite companies and quickly have access to their data. A search view was a given feature seeing as users would need a way to find companies they are looking for and then a screen for user’s to view all the information for a company.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-flow margin-top margin-bottom">
+					<img src="images/flow.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- NAME & BRAND -->
+		<section class="white-background">
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Name</h1>
+						<p>Before choosing ValueMine as the apps name, there were several other names we explored. One was “snowball”, which was inspired by Warren Buffet’s book, “The Snowball Effect”. Another was “Pato”, which means duck in Spanish. The inspiration of this name came from the rubber ducks that are handed out at each meeting at Berkshire Hathaway.</p>
+						<p>Both Pato and snowball were meaningful names, but they are not unique. If you search for either in the App Store you will see a lot of results and it can be very difficult for anyone who is trying to find your app. With ValueMine, we do not have this issue so it is easy for users to search for and find it. The name ValueMine was actually inspired by my friend who I developed the app with. While we worked on the app, he would always refer to it as “going into the mines”. The app is in a sense a mine. It is a mine of financial information that can be valuable.</p>
+					</div>
+					<div class="paragraph-section">
+						<h1>Branding</h1>
+						<p>People who invest place a lot of emphasis on the accuracy of numbers and information in order to make investment decisions. Therefore, ValueMine needed to convey a sense of trust and reliability through it’s logo and brand.</p>
+						<p>The act of mining is normally associated with mountains and resources such as precious metals. But, when mining these mountains for resources, it is not like the resources are lying around everywhere in abundance. Rather, miners have to dig through a lot of dirt in order to uncover the resources they seek. Investing is a lot like this. Investors generally have to look through many companies before they are able to find even one that meets their investment criteria. The logo is abstract and represents this struggle. The two triangles represent mountains and they overlap to form a smaller triangle which is the value one can expect to find.</p>
+						<p>Using colours with an app like this can potentially take a user’s attention away from what’s really important; the information. Because of this I chose to use neutral colours which would be very easy on the eyes.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-pallette margin-top margin-bottom">
+					<img src="images/vmPallette.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- WATCHLIST LO-FI -->
+		<section>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>The Watchlist</h1>
+						<p>To simplify the way the information was displayed on the watchlist I chose to allow users to choose whether they wanted to display price, P/E or P/B at any given time. To do this I included a segmented control in the design which would allow users to choose which data type they would like to display.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-low-fi margin-top">
+					<img src="images/vmWatchlistLowFi.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- WATCHLIST HI-FI -->
+		<section class="white-background">
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Refining The Watchlist</h1>
+						<p>Watchlists are common features in finance apps. They allow users to look at companies they own shares in or that they’d like to own shares in. The watchlist in ValueMine serves a similar purpose with a slight twist. We created it with the idea of also allowing users to be able to quickly view the value of a company.  So, aside from price we also displayed the P/E and P/B ratio which allow investors to see whether or not the company is potentially undervalued. But, having P/E, P/B and price in the same table caused the view to become cluttered.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-hi-fi margin-top margin-bottom">
+					<img src="images/vmWatchlistHiFi.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- COMPANY FINANCIALS -->
+		<section>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Displaying Company Financials</h1>
+						<p>Generally, investors will look at financial data in a spreadsheet. Doing this is fine on a desktop because it has a larger screen, but viewing spreadsheets on your smartphone can quickly become frustrating. The challenge for me was to figure out the best way to present all of this information without just using a spreadsheet. To make things more challenging, I wanted to display everything on one screen to reduce the amount of navigation a user had to make and provide a better user experience.</p>
+						<p>In early wireframes I experimented with having a tab bar at the top of the screen in order to accomodate all of the information and separate the different data types into manageable groups. Each screen had its own purpose, one providing a summary, one to display year-to-date financials and one designated to show historical financial information.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-hi-fi margin-top margin-bottom">
+					<img src="images/vmDetailLowFi.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- COMPANY FINANCIALS REDESIGNED -->
+		<section class="white-background">
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>When In Doubt, Redesign</h1>
+						<p>After doing the early wireframes for the company financial view, I wasn’t satisfied. Deep down I knew that there was a better solution, so I started I started over. But, I didn’t throw out all of my ideas I kept the important ones such as the tab bar which helped break up the information into manageable groups. I knew that this would be a good way to display all the necessary informaiton in one screen and reduce navigation.</p>
+						<p>The company view was changed significantly in the final design. For this design I focused as much on separating the different types of information as I did on making the design appealing. </p>
+					</div>
+					<div class="paragraph-section">
+						<h1>Health Check</h1>
+						<p>Financial ratios are of tremendous importance to value investors. They can indicate how healthy a company is. In the early wireframes the summary was given it’s own screen due to the amount of information that was displayed making it only visible if the user chose to see it. We decided that it would be better to display this information at all times. In order to accomodate the additional information we separated it into two views which are managed by a page controller.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-summary margin-top">
+					<img src="images/vmSummary.png">
+				</div>
+			</div>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>Reusing Earlier Ideas</h1>
+						<p>The idea for separating the year-to-date and historical financials was kept, but the form of it was changed. I decided it would be better to use Apple’s built in segmented control to manage this action because it was already being used in the watchlist and having the same controls would complement the design of the app.</p>
+						<p>The ten year financials in the end was set to be displayed on a seaprate view because of the amount of information thatis being displayed. The follow button was also changed to a plius sign and included on each company screen.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image vm-hi-fi margin-top margin-bottom">
+					<img src="images/companyDetailHiFi.png">
+				</div>
+			</div>
+		</section>
+
+		<!-- FINAL THOUGHT -->
+		<section>
+			<div class="project-container">
+				<div class="one paragraph-section">
+					<div>
+						<h1>First Real App!</h1>
+						<p>I must say it was a long journey with this app and it wasn’t easy. I did while doing both a part-time UX boot camp at Bloc and another part time boot camp at Thoughtkite. I’ve spent hours on Xcode, Sketch and Photoshop just to get this app finished. And by finished I mean we have an MVP. There is still a lot more to do for this app and we’ll be adding more features in the near future. </p>
+						<p>The app can be found in the app store, I hope you like it and feel free to contact me with any questions.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="image download margin-top margin-bottom">
+					<a href="https://itunes.apple.com/ca/app/valuemine/id1071741457?mt=8"><img src="images/downloadApp.png"></a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="white-background">
+		<div class="container">
+			<nav class="footer-nav">
+				<ul>
+					<li><a class="fa fa-linkedin" href="https://ca.linkedin.com/in/blaynechong"></a></li>
+					<li><a class="fa fa-github" href="https://github.com/blaynecameron"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

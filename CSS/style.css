@@ -1,0 +1,534 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Open Sans", Helvetica, Arial, Sans-Serif;
+	color: #434343;
+	background: #F9F9F9;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 20px;
+	line-height: 34px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #434343;
+}
+
+/* GRID */
+.container, .project-container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.container:before,
+.container:after, 
+.project-container:before, 
+.project-container:after {
+	content: " ";
+	display: table;
+}
+
+.container:after, .project-container:after {
+	clear: both;
+}
+
+.one, .one-half, .one-third, .two-third {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin-bottom: 5px;
+}
+
+.center-align {
+	margin-left: 4%;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 300px) and (max-width: 650px) {
+	.project-container, .container {
+		width: 80%;
+	}
+
+	.project-image {
+		width: 90%;
+	}
+
+	.one, .one-half. .one-third, .two-third {
+		width: 96%;
+	}
+}
+
+@media (min-width: 650px) {
+	.container {
+		width: 600px;
+	}
+
+	.project-container {
+		width: 500px;
+	}
+
+	.one {
+		width: 96%;
+	}
+
+	.one-half {
+		width: 45%;
+	}
+
+	.separator {
+		width: 98%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+
+	.one-half {
+		width: 45%;
+	}
+
+	.one-third {
+		width: 53%;
+	}
+
+	.two-third {
+		width: 37%;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 900px;
+	}
+
+	.project-container {
+		width: 700px;
+	}
+
+	.one-third {
+		width: 45%;
+	}
+
+	.two-third {
+		width: 45%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1000px;
+	}
+
+	.one-third {
+		width: 40%;
+	}
+
+	.two-third {
+		width: 50%;
+	}
+}
+
+/* HEADER */
+header .logo {
+	font-family: "Poppins", Helvetica, Arial, Sans-Serif;
+	font-size: 20px;
+}
+
+header nav {
+	margin: 40px 0 20px 0;
+}
+
+header nav ul {
+	display: inline;
+	float: left;
+	margin-left: -35px;
+}
+
+header nav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+header .email p {
+	font-size: 16px;
+	float: right;
+	margin-right: -35px;
+}
+
+header .separator {
+	margin: 10px 0 30px;
+}
+
+/* SECTIONS */
+.details {
+	margin-top: -25px;
+}
+
+.project {
+	margin-top: 30px;
+}
+
+.separator-bottom {
+	margin-top: 30px;
+}
+
+.image {
+	text-align: center;
+}
+
+.paragraph-section p {
+	margin-bottom: 25px;
+}
+
+.margin-top {
+	margin-top: -50px;
+}
+
+.margin-bottom {
+	margin-bottom: 14%;
+}
+
+/* FOOTER */
+footer nav ul {
+	display: inline;
+	margin-left: -35px;
+}
+
+footer nav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+.footer-nav {
+	text-align: center;
+	margin: 30px 0 80px 0;
+}
+
+/* VALUEMINE PAGE */
+.vmlogo {
+	background: #3C4650;
+	text-align: center;
+}
+
+.white-background {
+	background-color: #FFFFFF;
+}
+
+.project-logo-intro {
+	margin: 20% 0;
+	width: 30%;
+}
+
+.paragraph {
+	margin-top: 60px;
+}
+
+.paragraph-section {
+	margin: 13% 0;
+}
+
+/* vm SCREENSHOTS */
+.screenshots {
+	margin: 13% 0;
+}
+
+.screenshots img {
+	width: 85%;
+}
+
+/* RESEARCH */
+.avatar {
+	padding-top: 10%;
+	text-align: center;
+	padding-left: 5%;
+}
+
+.avatar img {
+	width: 95%;
+}
+
+.avatar div {
+	margin-right: 30px;
+}
+
+.spreadsheet img {
+	width: 85%;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+	.spreadsheet img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.avatar {
+		padding-left: 11%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 650px) {
+	.avatar {
+		padding-left: 14%;
+	}
+}
+
+
+/* PROCESS */
+.user-stories img {
+	width: 75%;
+}
+
+.vm-flow img {
+	width: 80%;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+	.user-stories img, .vm-flow img {
+		width: 100%;
+	}
+}
+
+/* NAME & BRAND */
+.vm-pallette img {
+	margin-top: -5%;
+	width: 100%;
+}
+
+/* WATCHLIST */
+.vm-low-fi img {
+	width: 320px;
+	margin-bottom: -5px;
+}
+
+.vm-hi-fi img {
+	width: 90%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.vm-hi-fi img {
+		width: 100%;
+	}
+}
+
+/* DETAILS */
+.vm-summary {
+	margin-top: -100px;
+}
+
+.vm-summary img {
+	width: 50%;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+	.vm-summary {
+		margin-top: -60px;
+	}
+
+	.vm-summary img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+	.vm-summary img {
+		width: 80%;
+	}
+}
+
+/*  FIRST APP */
+@media (min-width: 300px) and (max-width: 500px) {
+	.download img {
+		width: 100%;
+	}
+}
+
+/* PAYCRAVE */
+.paycraveLogo {
+	text-align: center;
+	background-color: #D83B43;
+}
+
+.paycrave-user-story img {
+	width: 95%;
+}
+
+/* POLAROID */
+.polaroidLogo {
+	text-align: center;
+	background-color: #FFFDF1;
+}
+
+.sxlogo {
+	margin: 27% 0;
+}
+
+.rainbow {
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.sxlogo {
+		width: 60%;
+	}
+}
+
+/* BACK IN TIME */
+.photos {
+	width: 90%;
+	margin-top: 12%;
+}
+
+.polaroidPallette {
+	width: 80%;	
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.photos {
+		width: 100%;
+	}
+
+	.polaroidPallette {
+		width: 100%;	
+	}
+}
+
+/* FRIENDLY FACE */
+.polaroidFace {
+	width: 100%;
+	margin-bottom: -10px;
+}
+
+/* PRIORITIZE */
+.polaroidWebPage {
+	width: 100%;
+}
+
+.polaroidWebsite {
+	margin-top: -100px;
+}
+
+/* T2 */
+.braun-logo {
+	padding: 18%;
+	background-color: #E54337;
+}
+
+.braun-logo div {
+	text-align: center;
+}
+
+.braun-imac {
+	margin-top: 14%;
+	margin-bottom: -5px;
+}
+
+.braun-imac img {
+	width: 90%;
+}
+
+.t2Pallette {
+	width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.braun {
+		width: 20%;
+	}
+
+	.braun-imac {
+		margin-top: 20%;
+	}
+
+	.braun-imac img {
+		width: 100%;
+	}
+}
+
+/* PATO */
+.patoLogo {
+	background-color: #0BACEC;
+	text-align: center;
+}
+
+.patoLogo img {
+	margin: 25% 0;
+}
+
+.duckSketch img {
+	width: 90%;
+}
+
+.patoPallette img {
+	width: 85%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.duckSketch img {
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.patoPallette img {
+		width: 100%;
+	}
+}
+
+/* ABOUT */
+.about {
+	margin: 16% 0 22% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
