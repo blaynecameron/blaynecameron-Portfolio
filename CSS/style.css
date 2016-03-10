@@ -338,6 +338,11 @@ footer nav ul > li {
 }
 
 @media (min-width: 300px) and (max-width: 650px) {
+	.project-logo-intro {
+		margin: 40% 0;
+		width: 40%;
+	}
+
 	.spreadsheet img {
 		width: 100%;
 	}
