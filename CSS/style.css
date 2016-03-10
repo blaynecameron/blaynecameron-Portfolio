@@ -177,14 +177,13 @@ header nav {
 	margin: 40px 0 20px 0;
 }
 
+header nav .email p {
+		font-size: 16px;
+		margin-right: -4%;
+	}
+
 header .links {
 	margin-top: 18px;
-}
-
-header nav .email p {
-	font-size: 16px;
-	float: right;
-	margin-right: -4%;
 }
 
 header nav div > li {
@@ -197,10 +196,6 @@ header .separator {
 }
 
 @media (min-width: 300px) and (max-width: 433px) {
-	header nav .email p {
-		margin-right: 0;
-	}
-
 	header .separator {
 		margin-top: 0px;
 	}
@@ -208,21 +203,50 @@ header .separator {
 
 
 @media (min-width: 300px) and (max-width: 1000px) {
+	header .logo {
+		margin-bottom: 5px;
+	}
+
+	header .heading {
+		width: 100%;
+		text-align: center;
+	}
+
+	header .email {
+		text-align: center;
+	}
+
 	header .links li {
 		display: inline-block;
 		margin-right: 25px;
 	}
 }
 
-@media (min-width: 560) and (max-width: 650) {
-	header .email p {
-		
+@media (min-width: 300px) and (max-width: 500px) {
+	header .email {
+		width:90%;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 680px) {
+	header .email {
+		width:91%;
+	}
+}
+
+@media (min-width: 680px) and (max-width: 1000px) {
+	header .email {
+		width:93.5%;
 	}
 }
 
 @media (min-width: 1000px) {
 	header nav .heading div {
 		display: inline-block;
+	}
+
+	header nav .email p {
+		float: right;
 	}
 
 	.links {
