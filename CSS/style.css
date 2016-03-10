@@ -447,7 +447,7 @@ footer nav ul > li {
 }
 
 .sxlogo {
-	margin: 26% 0;
+	margin: 26% 0 24%;
 }
 
 .rainbow {
@@ -464,7 +464,7 @@ footer nav ul > li {
 
 @media (min-width: 300px) and (max-width: 650px) {
 	.sxlogo {
-		margin: 45% 0;
+		margin: 45% 0 40%;
 	}
 
 	.rainbow {
