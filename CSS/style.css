@@ -64,6 +64,10 @@ a {
 
 /* MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 650px) {
+	.body {
+		padding-left: 0%;
+	}
+
 	.project-container, .container {
 		width: 90%;
 	}
