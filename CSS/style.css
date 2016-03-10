@@ -447,7 +447,7 @@ footer nav ul > li {
 }
 
 .sxlogo {
-	margin: 27% 0;
+	margin: 26% 0;
 }
 
 .rainbow {
@@ -458,13 +458,17 @@ footer nav ul > li {
 
 @media (min-width: 300px) and (max-width: 600px) {
 	.sxlogo {
-		width: 60%;
+		width: 70%;
 	}
 }
 
 @media (min-width: 300px) and (max-width: 650px) {
 	.sxlogo {
-		margin: 40% 0;
+		margin: 45% 0;
+	}
+
+	.rainbow {
+		margin-top: -100px;
 	}
 }
 
@@ -509,7 +513,7 @@ footer nav ul > li {
 }
 
 .braun {
-	margin: 18% 0;
+	margin: 17% 0;
 }
 
 .braun-logo div {
@@ -545,7 +549,7 @@ footer nav ul > li {
 
 @media (min-width: 300px) and (max-width: 650px) {
 	.braun {
-		margin: 40% 0;
+		margin: 30% 0;
 	}
 }
 
