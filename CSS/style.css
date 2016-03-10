@@ -64,7 +64,7 @@ a {
 /* MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 650px) {
 	.project-container, .container {
-		width: 95%;
+		width: 90%;
 	}
 
 	.project-image {
