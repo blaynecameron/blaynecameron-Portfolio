@@ -452,12 +452,19 @@ footer nav ul > li {
 
 .rainbow {
 	width: 100%;
+	height: 25px;
 	margin-bottom: -4px;
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
 	.sxlogo {
 		width: 60%;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+	.sxlogo {
+		margin: 40% 0;
 	}
 }
 
@@ -498,8 +505,11 @@ footer nav ul > li {
 
 /* T2 */
 .braun-logo {
-	padding: 18%;
 	background-color: #E54337;
+}
+
+.braun {
+	margin: 18% 0;
 }
 
 .braun-logo div {
@@ -521,7 +531,7 @@ footer nav ul > li {
 
 @media (min-width: 300px) and (max-width: 600px) {
 	.braun {
-		width: 20%;
+		width: 15%;
 	}
 
 	.braun-imac {
@@ -530,6 +540,12 @@ footer nav ul > li {
 
 	.braun-imac img {
 		width: 100%;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+	.braun {
+		margin: 40% 0;
 	}
 }
 
@@ -562,14 +578,16 @@ footer nav ul > li {
 	}
 }
 
+@media (min-width: 300px) and (max-width: 650px) {
+	.patoLogo img {
+		margin: 40% 0;
+	}
+}
+
 /* ABOUT */
 .about {
 	margin: 20% 0 26% 0;
 }
-
-
-
-
 
 
 
