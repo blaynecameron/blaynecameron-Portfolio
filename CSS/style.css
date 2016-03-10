@@ -535,7 +535,7 @@ footer nav ul > li {
 
 @media (min-width: 300px) and (max-width: 600px) {
 	.braun {
-		width: 16%;
+		width: 15%;
 	}
 
 	.braun-imac {
@@ -549,7 +549,7 @@ footer nav ul > li {
 
 @media (min-width: 300px) and (max-width: 650px) {
 	.braun {
-		margin: 30% 0;
+		margin: 33% 0;
 	}
 }
 
