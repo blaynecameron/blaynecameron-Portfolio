@@ -200,6 +200,10 @@ header .separator {
 	header nav .email p {
 		margin-right: 0;
 	}
+
+	header .separator {
+		margin-top: 0px;
+	}
 }
 
 
@@ -211,10 +215,6 @@ header .separator {
 
 	header .logo {
 		margin-right: 40px;
-	}
-
-	header .separator {
-		margin-top: 0px;
 	}
 }
 
