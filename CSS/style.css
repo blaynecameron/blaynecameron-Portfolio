@@ -64,11 +64,11 @@ a {
 /* MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 650px) {
 	.project-container, .container {
-		width: 80%;
+		width: 95%;
 	}
 
 	.project-image {
-		width: 96%;
+		width: 92%;
 		margin-bottom: 20px;
 	}
 
@@ -76,12 +76,12 @@ a {
 		margin-top: 100px;
 	}
 
-	.one, .one-half. .one-third, .two-third {
-		width: 96%;
+	.one, .one-half. .one-third, .two-third, .details {
+		width: 90%;
 	}
 
 	.separator {
-		width: 97%;
+		width: 93%;
 		height: 1px;
 	}
 
@@ -105,7 +105,7 @@ a {
 	}
 
 	.separator {
-		width: 98%;
+		width: 100%;
 	}
 }
 
