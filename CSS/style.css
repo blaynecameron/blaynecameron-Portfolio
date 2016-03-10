@@ -164,6 +164,10 @@ a {
 }
 
 /* HEADER */
+.header {
+	text-align: center;
+}
+
 header .logo {
 	font-family: "Poppins", Helvetica, Arial, Sans-Serif;
 	font-size: 20px;
