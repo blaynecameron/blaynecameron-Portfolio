@@ -210,7 +210,7 @@ header .separator {
 @media (min-width: 300px) and (max-width: 1000px) {
 	header .links li {
 		display: inline-block;
-		margin-right: 40px;
+		margin-right: 25px;
 	}
 
 	header .logo {
